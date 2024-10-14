@@ -1,0 +1,10 @@
+docker run -d -p <image>
+docker images - List all the images present locally
+docker container ls - List all the conatiners present 
+docker container rm <containerID>
+docker conatiner stop <containerid>
+docker container kill <containerid>
+docker container unpause <containerid>
+docker container pause <containerid>
+docker container ls -a - lists all container, regarless of thier statuses
+docker container prune - remove all teh exisitng continers
