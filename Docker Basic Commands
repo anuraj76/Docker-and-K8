@@ -8,3 +8,8 @@ docker container unpause <containerid>
 docker container pause <containerid>
 docker container ls -a - lists all container, regarless of thier statuses
 docker container prune - remove all teh exisitng continers
+docker system
+docker system df
+docker system prune -a
+docker container stat <contianerID>
+docker conatiner run -d -m 512m -p 5001:5000 In28min/....
