@@ -13,3 +13,6 @@ docker system df
 docker system prune -a
 docker container stat <contianerID>
 docker conatiner run -d -m 512m -p 5001:5000 In28min/....
+docker build -t anuraj76/hello-world-python:0.0.2.RELEASE .  
+docker push anuraj76/hello-world-python:0.0.2.RELEASE           
+
